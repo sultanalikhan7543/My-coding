@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone ="no"?>
+<!DOCTYPE student [
+<!ELEMENT student (S.name,S.ID,S.semester,S.department,S.teacher)
+<!ELEMENT S.name (#PCDATA)>          <!--parsed character-->
+<!ELEMENT S.ID (#PCDATA)>            <!--parsed character-->
+<!ELEMENT S.semester (#PCDATA)>      <!--parsed character-->
+<!ELEMENT S.department (#PCDATA)>    <!--parsed character-->
+<!ELEMENT S.teacher (#PCDATA)>       <!--parsed character-->
+]>
+
+<student>
+	<S.name>Sultan Ali Khan</S.name>
+		<S.ID>16937</S.ID>
+			<S.semester>6th semester</S.semester>
+			<S.department>Software Engineering</S.department>
+			<S.teacher>Sir M.Ayub Khan</S.teacher>
+		</student>
